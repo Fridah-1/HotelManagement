@@ -37,11 +37,11 @@ include '../config.php';
                 <option value="Manager">Manager</option>
                 <option value="Cook">Cook</option>
                 <option value="Helper">Helper</option>
-                <option value="cleaner">cleaner</option>
-                <option value="weighter">weighter</option>
+                <option value="cleaner">Cleaner</option>
+                <option value="waiter">Waiter</option>
             </select>
 
-            <button type="submit" class="btn btn-success" name="addstaff">Add Room</button>
+            <button type="submit" class="btn btn-success" name="addstaff">Add Member</button>
         </form>
 
         <?php

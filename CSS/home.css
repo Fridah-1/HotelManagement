@@ -11,7 +11,7 @@
     background: rgb(6, 6, 44);
 }
 *::-webkit-scrollbar-thumb{
-    background: #0040ff;
+    background: #f3cfcf;
 }
 
 * {
@@ -53,6 +53,8 @@ ul li{
     text-decoration: none;
     list-style: none;
     cursor: pointer;
+    margin:auto;
+    justify-content: space-evenly;
 }
 
 ul li:hover::after{
@@ -62,7 +64,6 @@ ul li:hover::after{
     width: 30px;
     height: 3px;
     background-color: black;
-    /* display: none; */
     transition: ease 2s;
 }
 
@@ -75,7 +76,7 @@ ul li a:hover{
     display: flex;
     justify-content: center;
 }
-.logo .bluebirdlogo {
+.logo .malazilogo {
     height: 100%;
 }
 
@@ -193,16 +194,16 @@ ul li a:hover{
 }
 
 .h1{
-    background-image: url(../image/hotel1photo.webp);
+    background-image: url(../images/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table.jpg);
 }
 .h2{
-    background-image: url(../image/hotel2photo.jpg);
+    background-image: url(../images/marten-bjork-n_IKQDCyrG0-unsplash.jpg);
 }
 .h3{
-    background-image: url(../image/hotel3photo.avif);
+    background-image: url(../images/folded-towels-bed.jpg);
 }
 .h4{
-    background-image: url(../image/hotel4photo.jpg);
+    background-image: url(../images/tropical-hotel-holiday-background-resort.jpg);
 }
 
 .roomdata{
@@ -272,34 +273,35 @@ font-size: 30px;
 }
 
 .box:nth-child(1){
-    background-image: url(../image/swimingpool.jpg);
+    background-image: url(../images/beautiful-luxury-swimming-pool-with-palm-tree.jpg);
     background-size: cover;
 }
 .box:nth-child(2){
-    background-image: url(../image/spa.jpg);
+    background-image: url(../images/beautiful-african-woman-resting-relaxing-with-sea-salt-back-spa-salon.jpg);
     background-size: cover;
 }
 .box:nth-child(3){
-    background-image: url(../image/food.jpg);
+    background-image: url(../images/restaurant-interior.jpg);
     background-size: cover;
 }
 .box:nth-child(4){
-    background-image: url(../image/gym.jpg);
+    background-image: url(../images/equipments-gym.jpg);
     background-size: cover;
 }
 .box:nth-child(5){
-    background-image: url(../image/heli.jpg);
+    background-image: url(../images/heli.jpg);
     background-size: cover
 }
 
 #contactus{
-    height: 70px;
+    height: 100px;
     width: 100%;
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding:0 100px;
+    margin-top: 100px;
 }
 
 #contactus .social{
@@ -399,5 +401,6 @@ font-size: 30px;
 
     #contactus{
         padding: 0 30px;
+        margin-top: 100px;
     }
 }

@@ -31,7 +31,7 @@ CREATE TABLE `emp_login` (
 --
 
 INSERT INTO `emp_login` (`empid`, `Emp_Email`, `Emp_Password`) VALUES
-(1, 'Admin@gmail.com', '1234');
+(1, 'fridah@gmail.com', '1234');
 
 -- --------------------------------------------------------
 
@@ -61,7 +61,7 @@ CREATE TABLE `payment` (
 --
 
 INSERT INTO `payment` (`id`, `Name`, `Email`, `RoomType`, `Bed`, `NoofRoom`, `cin`, `cout`, `noofdays`, `roomtotal`, `bedtotal`, `meal`, `mealtotal`, `finaltotal`) VALUES
-(41, 'Tushar pankhaniya', 'pankhaniyatushar9@gmail.com', 'Single Room', 'Single', 1, '2022-11-09', '2022-11-10', 1, 1000.00, 10.00, 'Room only', 0.00, 1010.00);
+(41, 'Fridah Maina', 'fridah.wanjirumaina@gmail.com', 'Single Room', 'Single', 1, '2022-11-09', '2022-11-10', 1, 1000.00, 10.00, 'Room only', 0.00, 1010.00);
 
 -- --------------------------------------------------------
 
@@ -125,7 +125,7 @@ CREATE TABLE `roombook` (
 --
 
 INSERT INTO `roombook` (`id`, `Name`, `Email`, `Country`, `Phone`, `RoomType`, `Bed`, `Meal`, `NoofRoom`, `cin`, `cout`, `nodays`, `stat`) VALUES
-(41, 'Tushar pankhaniya', 'pankhaniyatushar9@gmail.com', 'India', '9313346569', 'Single Room', 'Single', 'Room only', '1', '2022-11-09', '2022-11-10', 1, 'Confirm');
+(41, 'Fridah Maina', 'fridah.wanjirumaina@gmail.com', 'Kenya', '+254114883392', 'Single Room', 'Single', 'Room only', '1', '2022-11-09', '2022-11-10', 1, 'Confirm');
 
 -- --------------------------------------------------------
 
@@ -145,7 +145,7 @@ CREATE TABLE `signup` (
 --
 
 INSERT INTO `signup` (`UserID`, `Username`, `Email`, `Password`) VALUES
-(1, 'Tushar Pankhaniya', 'tusharpankhaniya2202@gmail.com', '123');
+(1, 'Fridah Maina', 'fridah.wanjirumaina@gmail.com', '12345');
 
 -- --------------------------------------------------------
 
@@ -164,16 +164,16 @@ CREATE TABLE `staff` (
 --
 
 INSERT INTO `staff` (`id`, `name`, `work`) VALUES
-(1, 'Tushar pankhaniya', 'Manager'),
-(3, 'rohit patel', 'Cook'),
-(4, 'Dipak', 'Cook'),
-(5, 'tirth', 'Helper'),
-(6, 'mohan', 'Helper'),
-(7, 'shyam', 'cleaner'),
-(8, 'rohan', 'weighter'),
-(9, 'hiren', 'weighter'),
-(10, 'nikunj', 'weighter'),
-(11, 'rekha', 'Cook');
+(1, 'Fridah Maina', 'Manager'),
+(3, 'Claire Mukami', 'Cook'),
+(4, 'Micah', 'Cook'),
+(5, 'Warren', 'Helper'),
+(6, 'Lewis', 'Helper'),
+(7, 'Vivian', 'cleaner'),
+(8, 'Alex', 'waiter'),
+(9, 'Alexa', 'waiter'),
+(10, 'Winner', 'waiter'),
+(11, 'Mimmi', 'Cook');
 
 --
 -- Indexes for dumped tables

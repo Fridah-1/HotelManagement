@@ -39,20 +39,20 @@ if($usermail == true){
     <!-- nav bar -->
     <nav class="uppernav">
         <div class="logo">
-            <img class="bluebirdlogo" src="../image/bluebirdlogo.png" alt="logo">
+            <img class="malazilogo" src="../images/logo2.png" alt="logo">
             <p>MALAZI</p>
         </div>
         <div class="logout">
-        <a href="../logout.php"><button class="btn btn-primary">Logout</button></a>
+        <a href="../logout.php"><button class="btn btn-info">Logout</button></a>
         </div>
     </nav>
     <nav class="sidenav">
         <ul>
-            <li class="pagebtn active"><img src="../image/icon/dashboard.png">&nbsp&nbsp&nbsp Dashboard</li>
-            <li class="pagebtn"><img src="../image/icon/bed.png">&nbsp&nbsp&nbsp Room Booking</li>
-            <li class="pagebtn"><img src="../image/icon/wallet.png">&nbsp&nbsp&nbsp Payment</li>            
-            <li class="pagebtn"><img src="../image/icon/bedroom.png">&nbsp&nbsp&nbsp Rooms</li>
-            <li class="pagebtn"><img src="../image/icon/staff.png">&nbsp&nbsp&nbsp Staff</li>
+            <li class="pagebtn active" href="./dashboard.php"><img src="../images/icon/dashboard.png">&nbsp&nbsp&nbsp Dashboard</li>
+            <li class="pagebtn"><img src="../images/icon/bed.png">&nbsp&nbsp&nbsp Room Booking</li>
+            <li class="pagebtn"><img src="../images/icon/wallet.png">&nbsp&nbsp&nbsp Payment</li>            
+            <li class="pagebtn"><img src="../images/icon/bedroom.png">&nbsp&nbsp&nbsp Rooms</li>
+            <li class="pagebtn"><img src="../images/icon/staff.png">&nbsp&nbsp&nbsp Staff</li>
         </ul>
     </nav>
 

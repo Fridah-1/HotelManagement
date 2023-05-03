@@ -44,35 +44,35 @@ if($usermail == true){
 <body>
   <nav>
     <div class="logo">
-      <img class="bluebirdlogo" src="./image/bluebirdlogo.png" alt="logo">
-      <p>BLUEBIRD</p>
+      <img class="malazilogo" src="./images/logo2.png" alt="logo">
+      <p>MALAZI</p>
     </div>
     <ul>
       <li><a href="#firstsection">Home</a></li>
       <li><a href="#secondsection">Rooms</a></li>
       <li><a href="#thirdsection">Facilites</a></li>
       <li><a href="#contactus">contact us</a></li>
-      <a href="./logout.php"><button class="btn btn-danger">Logout</button></a>
+      <a href="./logout.php"><button class="btn btn-info">Logout</button></a>
     </ul>
   </nav>
 
   <section id="firstsection" class="carousel slide carousel_section" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="carousel-image" src="./image/hotel1.jpg">
+            <img class="carousel-image" src="./images/beautiful-umbrella-chair-around-swimming-pool-hotel-resort.jpg">
         </div>
         <div class="carousel-item">
-            <img class="carousel-image" src="./image/hotel2.jpg">
+            <img class="carousel-image" src="./images/croissant-boiled-egg-orange-juice-yogurt-breakfast-tray-bed-hotel-room.jpg">
         </div>
         <div class="carousel-item">
-            <img class="carousel-image" src="./image/hotel3.jpg">
+            <img class="carousel-image" src="./images/folded-towels-bed.jpg">
         </div>
         <div class="carousel-item">
-            <img class="carousel-image" src="./image/hotel4.jpg">
+            <img class="carousel-image" src="./images/tropical-hotel-holiday-background-resort.jpg">
         </div>
 
         <div class="welcomeline">
-          <h1 class="welcometag">Welcome to heaven on earth</h1>
+          <h1 class="welcometag">Welcome to a glimpse of paradise</h1>
         </div>
 
       <!-- bookbox -->
@@ -202,7 +202,7 @@ if($usermail == true){
   </section>
     
   <section id="secondsection"> 
-    <img src="./image/homeanimatebg.svg">
+    <img src="./images/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table.jpg">
     <div class="ourroom">
       <h1 class="head">≼ Our room ≽</h1>
       <div class="roomselect">

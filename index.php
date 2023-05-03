@@ -29,16 +29,16 @@ session_start();
     <section id="carouselExampleControls" class="carousel slide carousel_section" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="carousel-image" src="./image/hotel1.jpg">
+                <img class="carousel-image" src="./images/hotel1.jpg">
             </div>
             <div class="carousel-item">
-                <img class="carousel-image" src="./image/hotel2.jpg">
+                <img class="carousel-image" src="./images/hotel2.jpg">
             </div>
             <div class="carousel-item">
-                <img class="carousel-image" src="./image/hotel3.jpg">
+                <img class="carousel-image" src="./images/hotel3.jpg">
             </div>
             <div class="carousel-item">
-                <img class="carousel-image" src="./image/hotel4.jpg">
+                <img class="carousel-image" src="./images/hotel4.jpg">
             </div>
         </div>
     </section>
@@ -47,7 +47,7 @@ session_start();
     <section id="auth_section">
 
         <div class="logo">
-            <img class="bluebirdlogo" src="./image/bluebirdlogo.png" alt="logo">
+            <img class="malazilogo" src="./images/logo2.png" alt="logo">
             <p>MALAZI</p>
         </div>
 
