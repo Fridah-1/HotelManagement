@@ -193,16 +193,16 @@ ul li a:hover{
 }
 
 .h1{
-    background-image: url(../image/hotel1photo.webp);
+    background-image: url(../images/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table.jpg);
 }
 .h2{
-    background-image: url(../image/hotel2photo.jpg);
+    background-image: url(../images/marten-bjork-n_IKQDCyrG0-unsplash.jpg);
 }
 .h3{
-    background-image: url(../image/hotel3photo.avif);
+    background-image: url(../images/folded-towels-bed.jpg);
 }
 .h4{
-    background-image: url(../image/hotel4photo.jpg);
+    background-image: url(../images/tropical-hotel-holiday-background-resort.jpg);
 }
 
 .roomdata{
@@ -272,19 +272,19 @@ font-size: 30px;
 }
 
 .box:nth-child(1){
-    background-image: url(../image/swimingpool.jpg);
+    background-image: url(../images/beautiful-luxury-swimming-pool-with-palm-tree.jpg);
     background-size: cover;
 }
 .box:nth-child(2){
-    background-image: url(../image/spa.jpg);
+    background-image: url(../images/beautiful-african-woman-resting-relaxing-with-sea-salt-back-spa-salon.jpg);
     background-size: cover;
 }
 .box:nth-child(3){
-    background-image: url(../image/food.jpg);
+    background-image: url(../images/restaurant-interior.jpg);
     background-size: cover;
 }
 .box:nth-child(4){
-    background-image: url(../image/gym.jpg);
+    background-image: url(../image/equipments-gym.jpg);
     background-size: cover;
 }
 .box:nth-child(5){
