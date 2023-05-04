@@ -204,7 +204,7 @@ if($usermail == true){
   <section id="secondsection"> 
     <img src="./images/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table.jpg">
     <div class="ourroom">
-      <h1 class="head">≼ Our room ≽</h1>
+      <h1 class="head">≼ Our Rooms ≽</h1>
       <div class="roomselect">
         <div class="roombox">
           <div class="hotelphoto h1"></div>
